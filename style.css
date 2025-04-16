@@ -1,0 +1,117 @@
+ body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  background: linear-gradient(to right, #141e30, #243b55);
+}
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  text-align: center;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.hero-content h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 10px 20px;
+  background: #ff416c;
+  background: linear-gradient(to right, #ff4b2b, #ff416c);
+  color: white;
+  border-radius: 25px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(255, 65, 108, 0.5);
+}
+
+.music audio {
+  margin-top: 20px;
+  width: 90%;
+  max-width: 400px;
+}
+
+.instagram .ig-placeholder {
+  border: 2px dashed #888;
+  padding: 30px;
+  margin-top: 20px;
+  color: #ccc;
+}
+
+.performances ul {
+  list-style: none;
+  padding: 0;
+}
+
+.performances li {
+  margin: 10px 0;
+  font-size: 1.1em;
+}
+
+.merch-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.merch-grid .item {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 10px;
+  width: 150px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact input, .contact textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+}
+
+.contact button {
+  cursor: pointer;
+}
+
+footer {
+  padding: 30px 10px;
+  background: #111;
+  text-align: center;
+  color: #aaa;
+  margin-top: 40px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
